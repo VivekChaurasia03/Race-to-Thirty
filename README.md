@@ -27,7 +27,7 @@ To run the game locally:
 2. Open the `index.html` file in your web browser.
 3. Enjoy playing Pig Dice Game!
 
-![Race To Thirty Screenshot](WinningGameScreenShot.png)
+![Race To Thirty Screenshot](images/WinningGameScreenShot.png)
 
 ## Credits
 

@@ -138,6 +138,18 @@ main {
 .btn--hold {
   top: 46.1rem;
 }
+.btn--code {
+  top: 52.9rem;
+}
+.btn--code a {
+  text-decoration: none;
+  color: #444;
+}
+.btn--code a img {
+  width: 20px; 
+  height: auto; 
+  padding-top: 2px
+}
 
 .btn:active {
   transform: translate(-50%, 3px);
