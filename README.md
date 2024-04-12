@@ -28,7 +28,3 @@ To run the game locally:
 3. Enjoy playing Pig Dice Game!
 
 ![Race To Thirty Screenshot](images/WinningGameScreenShot.png)
-
-## Credits
-
-This project was inspired by the Pig Dice Game project in the [Complete JavaScript Course 2021: From Zero to Expert!](https://www.udemy.com/course/the-complete-javascript-course/) on Udemy.
