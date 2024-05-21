@@ -43,6 +43,109 @@
                 >
             </button>
         </main>
+        <!-- Modal structure -->
+        <div class="modal-overlay hidden" id="modal-overlay"></div>
+        <div class="modal hidden" id="modal">
+            <div class="modal-content">
+                <span class="close-button" id="close-button">&times;</span>
+                <h2>How to Play the Dice Game</h2>
+                <p>
+                    <strong>Objective:</strong> Be the first player to reach or
+                    exceed a score of 30 points.
+                </p>
+                <p>
+                    <strong>Setup:</strong>
+                </p>
+                <ol>
+                    <li>The game has two players, Player 1 and Player 2.</li>
+                    <li>Both players start with a score of 0.</li>
+                    <li>Player 1 starts the game.</li>
+                </ol>
+                <p>
+                    <strong>Gameplay:</strong>
+                </p>
+                <ol>
+                    <li>
+                        <strong>Rolling the Dice:</strong>
+                        <ul>
+                            <li>
+                                Click the "Roll Dice" button to roll a six-sided
+                                dice.
+                            </li>
+                            <li>
+                                The result of the dice roll will be displayed.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>If the dice shows any number except 1:</strong>
+                        <ul>
+                            <li>
+                                The rolled number is added to your current
+                                score.
+                            </li>
+                            <li>
+                                You can choose to roll the dice again or hold
+                                your score.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>If the dice shows 1:</strong>
+                        <ul>
+                            <li>Your current score is reset to 0.</li>
+                            <li>It becomes the other player's turn.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Holding the Score:</strong>
+                        <ul>
+                            <li>
+                                Click the "Hold" button to add your current
+                                score to your total score.
+                            </li>
+                            <li>
+                                Your turn ends, and it becomes the other
+                                player's turn.
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+                <p>
+                    <strong>Winning the Game:</strong>
+                </p>
+                <ol>
+                    <li>
+                        The first player to reach or exceed a total score of 30
+                        points wins the game.
+                    </li>
+                    <li>The winning player will be highlighted.</li>
+                </ol>
+                <p>
+                    <strong>Starting a New Game:</strong>
+                </p>
+                <ol>
+                    <li>
+                        Click the "New Game" button to reset all scores and
+                        start a new game.
+                    </li>
+                    <li>Player 1 will start the new game.</li>
+                </ol>
+                <p>
+                    <strong>Notes:</strong>
+                </p>
+                <ul>
+                    <li>The current active player is highlighted.</li>
+                    <li>
+                        The dice is hidden at the start and reappears when
+                        rolled.
+                    </li>
+                    <li>
+                        Use the "New Game" button at any time to reset the game.
+                    </li>
+                </ul>
+            </div>
+        </div>
         <script src="script.js"></script>
     </body>
 </html>

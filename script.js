@@ -36,6 +36,35 @@ const init = function () {
     player0El.classList.add('player--active');
     player1El.classList.remove('player--active');
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('modal');
+    const modalOverlay = document.getElementById('modal-overlay');
+    const closeButton = document.getElementById('close-button');
+
+    const openModal = () => {
+        modal.classList.remove('hidden');
+        modalOverlay.classList.remove('hidden');
+    };
+
+    const closeModal = () => {
+        modal.classList.add('hidden');
+        modalOverlay.classList.add('hidden');
+    };
+
+    closeButton.addEventListener('click', closeModal);
+    modalOverlay.addEventListener('click', closeModal);
+
+    document.addEventListener('keydown', event => {
+        if (event.key === 'Escape') {
+            closeModal();
+        }
+    });
+
+    // Show the modal when the page loads
+    openModal();
+});
+
 init();
 
 function switchingPlayer() {
