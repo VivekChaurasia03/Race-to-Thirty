@@ -1,4 +1,4 @@
-# Pig Dice Game
+# [Pig Dice Game](https://race-to-thirty.netlify.app/)
 
 ## Description
 
